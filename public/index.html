@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f2eadc" />
+  <meta name="description" content="ANNAM — soulful South Indian dining, rooted in tradition and served with warmth." />
+  <title>ANNAM — The Soul of South India</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="announcement"><span>✦</span> A little tradition, a lot of heart <span>✦</span></div>
+  <header class="nav-wrap">
+    <a class="brand" href="#home" aria-label="Annam home"><span class="brand-mark">அ</span><span><b>ANNAM</b><small>THE SOUL OF SOUTH INDIA</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+    <nav id="mainNav"><a href="#story">Our story</a><a href="#menu">The menu</a><a href="#experience">Our space</a><a href="#visit">Visit us</a></nav>
+    <button class="nav-order" id="navOrder">Order with us <span>↗</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-photo"></div><div class="hero-shade"></div>
+      <div class="hero-content reveal"><p class="eyebrow light">ROOTED IN TRADITION · MADE WITH LOVE</p><h1>Where every meal<br>feels like <em>home.</em></h1><p class="hero-copy">A celebration of South India's generous table — timeless recipes, honest ingredients and the warmth of togetherness.</p><div class="hero-actions"><a class="button button-light" href="#menu">Explore our menu <span>↗</span></a><a class="text-link light-link" href="#story">Discover our story <span>↓</span></a></div></div>
+      <div class="hero-note"><span class="note-line"></span><span>CRAFTED WITH CULTURE<br>SHARED WITH LOVE</span></div><div class="hero-stamp">சுவை<br><small>THE TASTE OF HOME</small></div>
+    </section>
+
+    <section class="intro section-pad" id="story"><div class="intro-ornament">✳</div><p class="eyebrow">A TABLE FULL OF STORIES</p><h2>Some flavours are more<br>than food. They are <em>heritage.</em></h2><p class="intro-copy">At Annam, we honour the soulful foodways of South India. From the first crackle of mustard seeds to the last sip of filter kaapi, every detail is an invitation to slow down, gather close and savour the familiar.</p><a class="under-link" href="#experience">A glimpse into our world <span>↗</span></a></section>
+
+    <section class="food-feature section-pad" id="experience"><div class="feature-image"><img src="https://images.unsplash.com/photo-1630383249896-424e482df921?auto=format&fit=crop&w=1200&q=85" alt="Traditional South Indian dosa served with chutneys" loading="lazy"><span class="image-caption">FRESHLY MADE. NEVER RUSHED.</span></div><div class="feature-copy"><p class="eyebrow">THE ANNNAM WAY</p><h2>Tradition on the<br>plate. <em>Joy in every bite.</em></h2><p>We bring together regional recipes, seasonal produce and the patient craft of traditional cooking. Every plate is prepared to be remembered — not just photographed.</p><div class="values"><div><span>01</span><b>Honest ingredients</b><small>Fresh, thoughtful and seasonal.</small></div><div><span>02</span><b>Time-honoured craft</b><small>Recipes with generations behind them.</small></div><div><span>03</span><b>Warm hospitality</b><small>Come as you are. Leave nourished.</small></div></div></div></section>
+
+    <section class="menu-section section-pad" id="menu"><div class="section-heading"><div><p class="eyebrow">FROM OUR KITCHEN TO YOUR TABLE</p><h2>The <em>menu.</em></h2></div><p>Comforting classics, regional favourites<br>and a few Annam signatures.</p></div><div class="menu-tabs" id="menuTabs"><button class="active" data-category="All">All</button><button data-category="Tiffin">Tiffin</button><button data-category="Meals">Meals</button><button data-category="Beverages">Beverages</button><button data-category="Desserts">Desserts</button></div><div class="menu-grid" id="menuGrid"><div class="loading">Preparing something delicious…</div></div><div class="menu-footnote">✳ All prices in INR · Please inform us of any food allergies.</div></section>
+
+    <section class="ambience"><div class="ambience-img"></div><div class="ambience-copy"><p class="eyebrow light">A SPACE TO SLOW DOWN</p><h2>Come for the food.<br>Stay for the <em>feeling.</em></h2><p>Earthy textures, a touch of temple-inspired craft, living greens and the glow of brass. Annam is made for long lunches and conversations that linger.</p><a href="#visit" class="button button-outline">Plan your visit <span>↗</span></a></div></section>
+
+    <section class="visit section-pad" id="visit"><div><p class="eyebrow">YOUR PLACE AT OUR TABLE</p><h2>We'd love to<br> welcome <em>you.</em></h2><p>Whether it's a quick tiffin, a family meal or a celebration, there's always room at Annam.</p><div class="visit-details"><div><small>FIND US</small><b>Annam Restaurant</b><span>Update with your restaurant address</span></div><div><small>OPENING HOURS</small><b>Every day</b><span>12:00 PM – 10:30 PM · Demo hours</span></div></div></div><div class="visit-card"><span class="visit-flower">✳</span><p class="eyebrow">A GOOD MEAL IS A GOOD MEMORY</p><h3>Make today<br>a little more <em>delicious.</em></h3><button class="button button-dark" id="visitOrder">Start an order <span>↗</span></button></div></section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">அ</span><span><b>ANNAM</b><small>THE SOUL OF SOUTH INDIA</small></span></a><p>Rooted in tradition. Served with love.</p><span class="copyright">© <span id="year"></span> ANNAM · MADE FOR GATHERING</span></footer>
+
+  <button class="cart-fab" id="cartFab" aria-label="Open your order"><span>Bag</span><b id="cartCount">0</b></button>
+  <div class="drawer-backdrop" id="drawerBackdrop"></div><aside class="cart-drawer" id="cartDrawer" aria-label="Your order" aria-hidden="true"><div class="drawer-head"><div><p class="eyebrow">A PLACE AT OUR TABLE</p><h3>Your order</h3></div><button class="close-btn" id="closeDrawer" aria-label="Close">×</button></div><div class="cart-lines" id="cartLines"><div class="empty-cart">Your bag is waiting for something delicious.</div></div><div class="cart-total"><span>Subtotal</span><b id="cartTotal">₹0</b></div><button class="button button-dark checkout-btn" id="checkoutBtn" disabled>Continue to details <span>→</span></button><p class="drawer-note">Taxes and any applicable charges are confirmed at the restaurant.</p></aside>
+
+  <div class="modal-backdrop" id="checkoutModal"><section class="checkout-modal"><button class="close-btn modal-close" id="closeModal" aria-label="Close">×</button><p class="eyebrow">ONE LAST THING</p><h3>Let's make it <em>yours.</em></h3><form id="checkoutForm"><label>Your name<input name="customerName" required placeholder="How should we address you?"></label><label>Phone number<input name="phone" required inputmode="tel" placeholder="Your contact number"></label><label>Order preference<select name="orderType"><option value="takeaway">Takeaway</option><option value="dine-in">Dine-in request</option></select></label><label>Anything we should know? <textarea name="notes" rows="2" placeholder="Optional notes or dietary requests"></textarea></label><button class="button button-dark submit-order" type="submit">Confirm order <span>✦</span></button><p class="form-error" id="formError"></p></form></section></div>
+
+  <div class="ticket-stage" id="ticketStage" aria-hidden="true"><div class="ticket-message"><span class="success-flower">✳</span><p class="eyebrow">A LITTLE JOY IS ON ITS WAY</p><h3>Your order is<br><em>beautifully placed.</em></h3><p id="ticketOrderCode"></p><button class="button button-dark" id="ticketDone">Back to Annam</button></div><div class="ticket-box"><div class="box-lid"></div><div class="box-body"><div class="box-emblem">அ<small>ANNAM</small></div></div><div class="ticket" id="orderTicket"><div class="ticket-top">✳ &nbsp; ANNAM · ORDER SLIP</div><h4>Thank you.</h4><p id="ticketSummary"></p><div class="ticket-rule"></div><b id="ticketTotal"></b><small>MADE WITH LOVE · SERVED WITH SOUL</small></div></div></div>
+  <script src="/app.js"></script>
+</body></html>

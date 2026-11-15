@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "order_code": "AN-B9C7B9",
+    "customer_name": "Sid",
+    "phone": "99707 63958",
+    "order_type": "takeaway",
+    "items": [
+      {
+        "id": "ghee-podi-idli",
+        "name": "Ghee Podi Idli",
+        "price": 189,
+        "quantity": 1
+      }
+    ],
+    "total": 189,
+    "notes": "It will be amazing experience",
+    "status": "received",
+    "created_at": "2026-10-30T18:55:06.359Z"
+  }
+]
